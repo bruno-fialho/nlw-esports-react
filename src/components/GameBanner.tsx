@@ -5,7 +5,6 @@ interface GameBannerProps {
 }
 
 export function GameBanner(props: GameBannerProps) {
-  console.log('props', props);
   return (
     <a href="" className="relative rounded-lg overflow-hidden">
       <img src={props.bannerUrl} alt={`${props.title} Image`} />
